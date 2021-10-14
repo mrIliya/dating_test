@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Open+Sans&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Test</title>
+</head>
+
+<body>
+
+	<main class="main active" id="main">
+		<div class="main__image"></div>
+		<div class="main__container container">
+			<div class="main-content">
+				<header class="main-content__header">
+					<h1 class="main-content__title title">
+						Наибольшая база анкет для знакомств
+					</h1>
+				</header>
+				<div class="main-content__buttons">
+					<button class="main-content__btn button" type="button">
+						<span class="main-content__btn-text male">Я мужчина</span>
+					</button>
+					<button class="main-content__btn button" type="button">
+						<span class="main-content__btn-text female">Я женщина</span>
+					</button>
+				</div>
+			</div>
+			<div class="main__reviews">
+				<article class="reviews-item">
+					<header class="reviews-item__header">
+						<div class="reviews-item__users">
+							<img class="reviews-item__user" src="./images/user-1.png" alt="user">
+							<img class="reviews-item__user" src="./images/user-2.png" alt="user">
+						</div>
+						<div class="reviews-item__info">
+							<h4 class="reviews-item__names">Аня и Дима</h4>
+							<p class="reviews-item__date">23 недели назад</p>
+						</div>
+					</header>
+					<p class="reviews-item__text">
+						Безопасность и анонимность пользователей — наш главный приоритет. Мы используем новейшие технологии,
+						чтобы защитить вашу личную информацию и данные, указанные при регистрации. Мы используем новейшие
+						технологии, чтобы защитить вашу защитить и личную...<a href="#" class="reviews-item__link">Читать
+							полностю</a>
+					</p>
+				</article>
+				<article class="reviews-item">
+					<header class="reviews-item__header">
+						<div class="reviews-item__users">
+							<img class="reviews-item__user" src="./images/user-1.png" alt="user">
+							<img class="reviews-item__user" src="./images/user-2.png" alt="user">
+						</div>
+						<div class="reviews-item__info">
+							<h4 class="reviews-item__names">Аня и Дима</h4>
+							<p class="reviews-item__date">23 недели назад</p>
+						</div>
+					</header>
+					<p class="reviews-item__text">
+						Безопасность и анонимность пользователей — наш главный приоритет. Мы используем новейшие технологии,
+						чтобы защитить вашу личную информацию и данные, указанные при регистрации. Мы используем новейшие
+						технологии, чтобы защитить вашу защитить и личную...<a href="#" class="reviews-item__link">Читать
+							полностю</a>
+					</p>
+				</article>
+			</div>
+		</div>
+		<footer class="main-footer">
+			<ul class="main-footer__list">
+				<li class="main-footer__line">
+					<a href="#" class="main-footer__link">О проекте</a>
+				</li>
+				<li class="main-footer__line">
+					<a href="#" class="main-footer__link">Подержека</a>
+				</li>
+				<li class="main-footer__line">
+					<a href="#" class="main-footer__link">Подержека</a>
+				</li>
+			</ul>
+		</footer>
+	</main>
+
+	<section class="goals main" id="goals">
+		<div class="goals__image main__image"></div>
+		<div class="goals__container container-lg">
+			<div class="goals-content">
+				<header class="goals-content__header main-content__header">
+					<h1 class="goals-content__title main-content__title title">
+						Цель знакомства:
+					</h1>
+				</header>
+				<div class="goals-content__buttons main-content__buttons">
+					<button class="goals-content__btn  button" type="button">
+						<span class="main-content__btn-text">дружба и общение</span>
+					</button>
+					<button class="goals-content__btn  button" type="button">
+						<span class="main-content__btn-text">cерьезные отношения</span>
+					</button>
+					<button class="goals-content__btn  button" type="button">
+						<span class="main-content__btn-text">создание семьи</span>
+					</button>
+					<button class="goals-content__btn  button" type="button">
+						<span class="main-content__btn-text">романтика и свидания</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<footer class="goals-footer">
+			<p class="goals-footer__text">Чтобы идеально подобрать для вас пару, ответьте на несколько вопросов</p>
+		</footer>
+	</section>
+
+	<section class="questions main" id="questions">
+		<div class="questions__image main__image"></div>
+		<div class="questions__container container-lg">
+			<div class="questions-content">
+				<header class="questions-content__header main-content__header">
+					<h1 class="questions-content__text main-content__title title">
+						Создать анкету
+					</h1>
+					<p class="questions-content__subtitle goals-footer__text">Бистрая регистрация, чтоби перейти к общению
+					</p>
+				</header>
+				<form class="questions-form">
+					<label class="questions-form__label">
+						<span class="questions-form__name">Имя:</span>
+						<input class="questions-form__input name-input" type="text" placeholder="Введите имя" required>
+						<p class="questions-form__error">Бистрая регистрация, чтоби перейти к общению</p>
+					</label>
+					<label class="questions-form__label">
+						<span class="questions-form__name">Дата рождения:</span>
+						<input class="questions-form__input date-input" type="date" required>
+						<p class="questions-form__error">Бистрая регистрация, чтоби перейти к общению</p>
+					</label>
+					<label class="questions-form__label">
+						<span class="questions-form__name">Придумайте пароль:</span>
+						<input class="questions-form__input password-input" type="password" placeholder="Минимум 8 символов" required>
+						<p class="questions-form__error">Бистрая регистрация, чтоби перейти к общению</p>
+					</label>
+					<label class="questions-form__label">
+						<span class="questions-form__name">Email:</span>
+						<input class="questions-form__input email-input" type="email" placeholder="Введите свою почту" required>
+						<p class="questions-form__error">Бистрая регистрация, чтоби перейти к общению</p>
+					</label>
+
+					<button class="questions-form__btn button" type="submit">
+						<span class="main-content__btn-text">СОЗДАТЬ</span>
+					</button>
+
+					<div class="questions-check">
+						<label class="questions-check__label for="check">
+							<input class="questions-check__input" type="checkbox" name="check">
+						</label>						
+						<p class="questions-check__text">
+							Регистрируясь, я подтверждаю что мне исполнилось 18 лет. Я принимаю условия
+							<a class="questions-check__link" href="#">
+								лицензионного соглашения, политики
+								конфиденциальности, обработки персональных данных.
+							</a>
+						</p>
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer class="questions-footer main-footer">
+			<ul class="questions-footer__list main-footer__list">
+				<li class="questions-footer__line main-footer__line">
+					<a href="#" class="questions-footer__link main-footer__link">О проекте</a>
+				</li>
+			</ul>
+		</footer>
+	</section>
+
+
+	<script src="./script/script.js"></script>
+</body>
+
+</html>
